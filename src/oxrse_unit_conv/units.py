@@ -30,6 +30,9 @@ lb = pound
 
 # kelvin
 
+fahrenheit = Unit(name='fahrenheit', abbr='F', si=kelvin, to_si_fun=lambda n: (n - 32) * 5/9 + 273.15)
+F = fahrenheit
+
 # mole
 
 atoms = Unit(name='atoms', abbr='at', si=mole, to_si_fun=lambda n: n / (6.022 * (10 ** 23)))
