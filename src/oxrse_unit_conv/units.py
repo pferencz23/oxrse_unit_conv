@@ -27,6 +27,9 @@ lb = pound
 
 # kelvin
 
+fahrenheit = Unit(name='fahrenheit', abbr='F', si=kelvin, to_si_fun=lambda n: (n - 273.15) * 9/5 + 32))
+F = fahrenheit
+
 # mole
 
 # candela
