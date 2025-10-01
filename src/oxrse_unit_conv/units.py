@@ -32,4 +32,7 @@ lb = pound
 
 # mole
 
+atoms = Unit(name='atoms', abbr='at', si=mole, to_si_fun=lambda n: n / (6.022 * (10 ** 23)))
+at = atoms
+
 # candela
